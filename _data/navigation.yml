@@ -1,0 +1,13 @@
+main:
+  - title: "Principal"
+    url: /
+  - title: "Publicaciones"
+    url: /posts/
+  - title: "Categorias"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Acerca"
+    url: /about/
+  - title: "Archivos"
+    url: /files/
