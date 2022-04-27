@@ -1,0 +1,90 @@
+body {
+    background: gray;
+}
+
+.sprite {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -2px;
+    margin-left: 1px;
+}
+
+#container {
+    padding: 0px;
+    background: blue;
+    margin: 0px;
+    font-family: monospace;
+    position: relative;
+    display: inline-block;
+}
+
+.maptile {
+    display: inline-block;
+    min-height: 15px;
+    min-width: 15px;
+    height: 15px;
+    width: 15px;
+    margin-top: -3px;
+}
+
+.empty {
+    background-color: black;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.dot {
+    background-color: white;
+    min-height: 3px;
+    min-width: 3px;
+    height: 3px;
+    width: 3px;
+    border-radius: 3px;
+    margin: 6px;
+}
+
+.power {
+    background-color: white;
+    min-height: 9px;
+    min-width: 9px;
+    height: 9px;
+    width: 9px;
+    border-radius: 9px;
+    margin: 3px;
+}
+
+.ghostwall {
+    background-color: green;
+}
+
+@font-face {
+    font-family: pac_font;
+    src: url('/assets/fonts/joystix\ monospace.ttf');
+}
+
+h3 {
+    color: yellow;
+    position: absolute;
+    left: 176px;
+    top: 238px;
+    font-family: pac_font;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lifeholder {
+    min-height: 18px;
+}

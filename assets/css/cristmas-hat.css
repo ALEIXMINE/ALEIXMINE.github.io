@@ -1,0 +1,34 @@
+html {
+    background: black;
+  }
+  
+  .hat {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100% 0px 0px 0px;
+  }
+  
+  
+  .hat::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: 90px;
+    border-radius: 50%;
+  }
+  
+  .hat::after{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: -5px;
+    border-radius: 5%;
+  }
