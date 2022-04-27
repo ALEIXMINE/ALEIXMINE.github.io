@@ -1,0 +1,310 @@
+@keyframes ChangeColor {
+    from {
+      color: #f00;
+    }
+    1% {
+      color: #ff2b00;
+    }
+    2% {
+      color: #f50;
+    }
+    4% {
+      color: #ff8000;
+    }
+    6% {
+      color: #fa0;
+    }
+    8% {
+      color: #ffd500;
+    }
+    10% {
+      color: #ff0;
+    }
+    12% {
+      color: #d4ff00;
+    }
+    14% {
+      color: #af0;
+    }
+    16% {
+      color: #80ff00;
+    }
+    20% {
+      color: #2bff00;
+    }
+    22% {
+      color: #0f0;
+    }
+    24% {
+      color: #00ff2b;
+    }
+    26% {
+      color: #0f5;
+    }
+    28% {
+      color: #00ff80;
+    }
+    30% {
+      color: #0fa;
+    }
+    32% {
+      color: #00ffd5;
+    }
+    34% {
+      color: #0ff;
+    }
+    36% {
+      color: #00d4ff;
+    }
+    38% {
+      color: #0af;
+    }
+    50% {
+      color: #007fff;
+    }
+    52% {
+      color: #05f;
+    }
+    54% {
+      color: #002bff;
+    }
+    56% {
+      color: #00f;
+    }
+    58% {
+      color: #2a00ff;
+    }
+    60% {
+      color: #50f;
+    }
+    62% {
+      color: #7f00ff;
+    }
+    64% {
+      color: #a0f;
+    }
+    66% {
+      color:  #d400ff;
+    }
+    68% {
+      color: #f0f;
+    }
+    70% {
+      color: #ff00d4;
+    }
+    72% {
+      color: #f0a;
+    }
+    78% {
+      color: #ff0080;
+    }
+    80% {
+      color: #f05;
+    }
+    85% {
+      color: #ff002b;
+    }
+    100% {
+      color: #f00;
+    }
+  }
+  
+  @keyframes ChangeFont {
+    from {
+      font-size: 40px;
+    }
+    5% {
+      font-size: 41px;
+    }
+    10% {
+      font-size: 42px;
+    }
+    15% {
+      font-size: 43px;
+    }
+    20% {
+      font-size: 44px;
+    }
+    25% {
+      font-size: 45px;
+    }
+    30% {
+      font-size: 46px;
+    }
+    35% {
+      font-size: 47px;
+    }
+    40% {
+      font-size: 48px;
+    }
+    45% {
+      font-size: 49px;
+    }
+    50% {
+      font-size: 50px;
+    }
+    55% {
+      font-size: 49px;
+    }
+    60% {
+      font-size: 48px;
+    }
+    65% {
+      font-size: 47px;
+    }
+    70% {
+      font-size: 46px;
+    }
+    75% {
+      font-size: 45px;
+    }
+    80% {
+      font-size: 44px;
+    }
+    85% {
+      font-size: 43px;
+    }
+    90% {
+      font-size: 42px;
+    }
+    95% {
+      font-size: 41px;
+    }
+    100% {
+      font-size: 40px;
+    }
+  }
+  
+  
+  @keyframes TitleAnimation {
+    from {
+      color: #f00;
+      font-size: 40px;
+    }
+    1% {
+      color: #ff2b00;
+      
+    }
+    2% {
+      color: #f50;
+      font-size: 41px;
+    }
+    4% {
+      color: #ff8000;
+    }
+    6% {
+      color: #fa0;
+      font-size: 42px;
+    }
+    8% {
+      color: #ffd500;
+    }
+    10% {
+      color: #ff0;
+      font-size: 43px;
+    }
+    12% {
+      color: #d4ff00;
+    }
+    14% {
+      color: #af0;
+      font-size: 44px;
+    }
+    16% {
+      color: #80ff00;
+    }
+    20% {
+      color: #2bff00;
+      font-size: 45px;
+    }
+    22% {
+      color: #0f0;
+    }
+    24% {
+      color: #00ff2b;
+      font-size: 46px;
+    }
+    26% {
+      color: #0f5;
+    }
+    28% {
+      color: #00ff80;
+      font-size: 47px;
+    }
+    30% {
+      color: #0fa;
+    }
+    32% {
+      color: #00ffd5;
+      font-size: 48px;
+    }
+    34% {
+      color: #0ff;
+    }
+    36% {
+      color: #00d4ff;
+      font-size: 49px;
+    }
+    38% {
+      color: #0af;
+    }
+    50% {
+      color: #007fff;
+      font-size: 50px;
+    }
+    52% {
+      color: #05f;
+    }
+    54% {
+      color: #002bff;
+      font-size: 49px;
+    }
+    56% {
+      color: #00f;
+    }
+    58% {
+      color: #2a00ff;
+      font-size: 48px;
+    }
+    60% {
+      color: #50f;
+    }
+    62% {
+      color: #7f00ff;
+      font-size: 47px;
+    }
+    64% {
+      color: #a0f;
+    }
+    66% {
+      color:  #d400ff;
+      font-size: 46px;
+    }
+    68% {
+      color: #f0f;
+    }
+    70% {
+      color: #ff00d4;
+      font-size: 45px;
+    }
+    72% {
+      color: #f0a;
+      font-size: 44px;
+    }
+    78% {
+      color: #ff0080;
+      font-size: 43px;
+    }
+    80% {
+      color: #f05;
+      font-size: 42px;
+    }
+    85% {
+      color: #ff002b;
+      font-size: 41px;
+    }
+    100% {
+      color: #f00;
+      font-size: 40px;
+    }
+  }
