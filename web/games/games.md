@@ -24,5 +24,5 @@ permalink: /web/games.html
   <a href="games/simple-snake">Simple Snake</a><br>
   <a href="games/snake">Snake</a><br>
   <a href="games/tetris">Tetris</a><br><br>
-  <a href="mailto:aleixboves10@gmail.com?Subject=Interesado%20en%20el%20curso&body=This%20is%20a%20message%20body">Contactar por correo</a>
+  <a href="mailto:aleixboves10@gmail.com?Subject=Sugerir%20Juego&body=Hola%20me%20gustaria%20añadir%20el%20juego%20">Contactar por correo</a>
 </div>
