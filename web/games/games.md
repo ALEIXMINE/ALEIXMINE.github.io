@@ -23,7 +23,7 @@ permalink: /web/games.html
   <a href="games/pong">Ping Pong</a><br>
   <a href="games/simple-snake">Simple Snake</a><br>
   <a href="games/snake">Snake</a><br>
-  <a href="games/tetris">Tetris</a><br><br>
-  <a href="games/minecraft-paper">Minecraft Paper</a><br>
+  <a href="games/tetris">Tetris</a><br>
+  <a href="games/minecraft-paper">Minecraft Paper</a><br><br>
   <a href="mailto:aleixboves10@gmail.com?Subject=Sugerir%20Juego&body=Hola%20me%20gustaria%20añadir%20el%20juego%20">Contactar por correo</a>
 </div>
