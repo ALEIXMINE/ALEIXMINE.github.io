@@ -1,0 +1,5 @@
+{
+  "name": "slither",
+  "cwd": "./server",
+  "script": "index.js"
+}
