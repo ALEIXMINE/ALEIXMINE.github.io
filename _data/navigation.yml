@@ -9,7 +9,7 @@ main:
     url: /tags/
   # - title: "Acerca"
   #   url: /about/
-  - title: "Archivos"
-    url: /files/
+  # - title: "Archivos"
+  #   url: /files/
   - title: "Juegos"
     url: /games/
