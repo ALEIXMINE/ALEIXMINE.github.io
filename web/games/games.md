@@ -1,5 +1,5 @@
 ---
-permalink: /web/games.html
+permalink: /games.html
 ---
 
 <style type="text/css" media="screen">
