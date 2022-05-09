@@ -7,8 +7,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Acerca"
-    url: /about/
+  # - title: "Acerca"
+  #   url: /about/
   - title: "Archivos"
     url: /files/
   - title: "Juegos"
