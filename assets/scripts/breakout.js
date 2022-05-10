@@ -73,7 +73,7 @@ function make_blocks () {
     }
   }
 }
-
+make_blocks()
 const paddle = {
   // place the paddle horizontally in the middle of the screen
   x: canvas.width / 2 - brickWidth / 2,
