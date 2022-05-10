@@ -58,7 +58,6 @@ const bricks = [];
 
 // create the level by looping over each row and column in the level1 array
 // and creating an object with the bricks position (x, y) and color
-function make_blocks () {
   for (let row = 0; row < level1.length; row++) {
     for (let col = 0; col < level1[row].length; col++) {
       const colorCode = level1[row][col];
@@ -72,8 +71,6 @@ function make_blocks () {
       });
     }
   }
-}
-make_blocks()
 const paddle = {
   // place the paddle horizontally in the middle of the screen
   x: canvas.width / 2 - brickWidth / 2,
@@ -199,13 +196,10 @@ function loop() {
   }
 
   // draw bricks
-  function draw_bricks() {
     bricks.forEach(function(brick) {
       context.fillStyle = brick.color;
       context.fillRect(brick.x, brick.y, brick.width, brick.height);
     });
-  }
-  draw_bricks()
 
   // draw paddle
   context.fillStyle = 'cyan';
