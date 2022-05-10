@@ -1,6 +1,8 @@
 const canvas = document.getElementById('game');
 const context = canvas.getContext('2d');
 
+let count_blocks = 0
+
 // each row is 14 bricks long. the level consists of 6 blank rows then 8 rows
 // of 4 colors: red, orange, green, and yellow
 const level1 = [
@@ -19,7 +21,22 @@ const level1 = [
   ['Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y'],
   ['Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y']
 ];
-
+const level2 = [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  ['Y']
+];
 // create a mapping between color short code (R, O, G, Y) and color name
 const colorMap = {
   'R': 'red',
@@ -41,17 +58,19 @@ const bricks = [];
 
 // create the level by looping over each row and column in the level1 array
 // and creating an object with the bricks position (x, y) and color
-for (let row = 0; row < level1.length; row++) {
-  for (let col = 0; col < level1[row].length; col++) {
-    const colorCode = level1[row][col];
-
-    bricks.push({
-      x: wallSize + (brickWidth + brickGap) * col,
-      y: wallSize + (brickHeight + brickGap) * row,
-      color: colorMap[colorCode],
-      width: brickWidth,
-      height: brickHeight
-    });
+function make_blocks () {
+  for (let row = 0; row < level1.length; row++) {
+    for (let col = 0; col < level1[row].length; col++) {
+      const colorCode = level1[row][col];
+      count_blocks+=1;
+      bricks.push({
+        x: wallSize + (brickWidth + brickGap) * col,
+        y: wallSize + (brickHeight + brickGap) * row,
+        color: colorMap[colorCode],
+        width: brickWidth,
+        height: brickHeight
+      });
+    }
   }
 }
 
@@ -91,6 +110,7 @@ function collides(obj1, obj2) {
 
 // game loop
 function loop() {
+  win()
   requestAnimationFrame(loop);
   context.clearRect(0,0,canvas.width,canvas.height);
 
@@ -150,7 +170,7 @@ function loop() {
     if (collides(ball, brick)) {
       // remove brick from the bricks array
       bricks.splice(i, 1);
-
+      count_blocks-=1;
       // ball is above or below the brick, change y velocity
       // account for the balls speed since it will be inside the brick when it
       // collides
@@ -179,10 +199,13 @@ function loop() {
   }
 
   // draw bricks
-  bricks.forEach(function(brick) {
-    context.fillStyle = brick.color;
-    context.fillRect(brick.x, brick.y, brick.width, brick.height);
-  });
+  function draw_bricks() {
+    bricks.forEach(function(brick) {
+      context.fillStyle = brick.color;
+      context.fillRect(brick.x, brick.y, brick.width, brick.height);
+    });
+  }
+  draw_bricks()
 
   // draw paddle
   context.fillStyle = 'cyan';
@@ -193,10 +216,12 @@ function loop() {
 document.addEventListener('keydown', function(e) {
   // left arrow key
   if (e.which === 37) {
+    delete_text()
     paddle.dx = -3;
   }
   // right arrow key
   else if (e.which === 39) {
+    delete_text()
     paddle.dx = 3;
   }
 
@@ -204,6 +229,7 @@ document.addEventListener('keydown', function(e) {
   // if they ball is not moving, we can launch the ball using the space key. ball
   // will move towards the bottom right to start
   if (e.which === 32) {
+    delete_text();
     ball.dx = ball.speed;
     ball.dy = ball.speed;
   }
@@ -215,6 +241,16 @@ document.addEventListener('keyup', function(e) {
     paddle.dx = 0;
   }
 });
+function delete_text() {
+  document.getElementById("title").innerHTML="";
+  document.getElementById("control").innerHTML="";
+};
+
+function win() {
+  if (count_blocks==0) {
+    document.getElementById("title").innerHTML="<h1 style='margin-top:-100px'>¡Has ganado!</h1>";
+  }
+}
 
 // start the game
 requestAnimationFrame(loop);
