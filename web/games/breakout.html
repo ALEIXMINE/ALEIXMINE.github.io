@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Basic Breakout HTML Game</title>
+  <title>Breakout</title>
   <meta charset="UTF-8">
   <style>
   html, body {
@@ -15,10 +15,16 @@
     align-items: center;
     justify-content: center;
   }
+
+  * {
+    position:fixed;
+  }
   </style>
 </head>
 <body>
-<canvas width="400" height="500" id="game"></canvas>
+<canvas style="margin-left:100%" width="400" height="500" id="game"></canvas>
 <script src="/assets/scripts/breakout.js"></script>
+<p id="control" style="margin-top:250px;margin-left:1200px;color: white;">Utiliza las flechas del teclado para moverte.</p>
+<p id="title" style="margin-top:340px;margin-left:1200px;color: white;">Pulsa espacio para tirar la bola.</p>
 </body>
 </html>
