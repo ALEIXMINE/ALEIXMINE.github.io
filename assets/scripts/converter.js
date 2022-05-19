@@ -23,7 +23,10 @@ function hash(string) {
 
 
 
-
+function doble_convert_t_hash() {
+  convert_t_hash();
+  convert_t_hash();
+}
 
 
 

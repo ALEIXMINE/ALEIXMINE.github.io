@@ -20,7 +20,7 @@ tags:
     <label>Entrada</label>
 </div>
 <br>
-<button onclick="convert_t_hash()" class="btn">Texto a hash</button>
+<button onclick="doble_convert_t_hash()" class="btn">Texto a hash</button>
 <div class="group" style="margin-top:1.5vw">
     <input id="output" required="" type="text" class="input">
     <span class="highlight"></span>
