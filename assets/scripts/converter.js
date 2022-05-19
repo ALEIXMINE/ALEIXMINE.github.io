@@ -24,16 +24,7 @@ function hash(string) {
 
 
 
-function convert_hash() {
-  convert_t_hash();
-  convert_t_hash();
-}
-
-
-
-
 function convert_t_hash() {
     var input = document.getElementById("input").value;
-    hash(document.getElementById("input").value).then((hex) => hashed=hex);
-    document.getElementById("output").value=hashed;
+    hash(document.getElementById("input").value).then((hex) => document.getElementById("output").value=hex);
 }
