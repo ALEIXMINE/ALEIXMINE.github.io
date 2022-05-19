@@ -4,9 +4,9 @@ title: Convertidor texto a hash
 date: 2022-3-30
 classes: wide
 categories:
-  - base64
+  - programation
 tags:
-  - base64
+  - hash
 ---
 
 ### Convertidor
