@@ -31,5 +31,5 @@ function hash(string) {
 function convert_t_hash() {
     var input = document.getElementById("input").value;
     hash(document.getElementById("input").value).then((hex) => hashed=hex);
-    document.getElementById("output").value=hashed
+    document.getElementById("output").value=hashed;
 }
