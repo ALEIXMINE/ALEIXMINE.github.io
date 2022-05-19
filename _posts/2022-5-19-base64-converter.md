@@ -11,6 +11,8 @@ tags:
 
 ### Convertidor
 
+<script src="/assets/scripts/base64-converter.js"></script>
+<link rel="stylesheet" href="/assets/css/base64-converter.css">
 <div class="group" style="margin-top:1.5vw">
     <input id="input" required="" type="text" class="input">
     <span class="highlight"></span>
