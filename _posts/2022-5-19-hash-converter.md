@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Convertidor base64 y texto
+title: Convertidor texto a hash
 date: 2022-3-30
 classes: wide
 categories:
@@ -20,7 +20,7 @@ tags:
     <label>Entrada</label>
 </div>
 <br>
-<button onclick="convert_t_b()" class="btn">Texto a base64</button><button onclick="convert_b_t()" style="margin-left:1%" class="btn">Base64 a texto</button>
+<button onclick="convert_t_hash()" class="btn">Texto a hash</button>
 <div class="group" style="margin-top:1.5vw">
     <input id="output" required="" type="text" class="input">
     <span class="highlight"></span>
