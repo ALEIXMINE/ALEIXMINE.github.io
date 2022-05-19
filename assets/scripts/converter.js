@@ -19,11 +19,12 @@ function hash(string) {
         .join('');
       return hashHex;
     });
-  }
+}
 
 
 
-function doble_convert_t_hash() {
+
+function convert_hash() {
   convert_t_hash();
   convert_t_hash();
 }
