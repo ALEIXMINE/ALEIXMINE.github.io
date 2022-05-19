@@ -1,5 +1,6 @@
 ---
 permalink: /games.html
+author_profile: true
 ---
 
 <style type="text/css" media="screen">
