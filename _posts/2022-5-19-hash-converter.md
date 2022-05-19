@@ -26,4 +26,5 @@ tags:
     <span class="highlight"></span>
     <span class="bar"></span>
     <label>Salida</label>
+    <button id="copyb">Copy</button>
   </div>
