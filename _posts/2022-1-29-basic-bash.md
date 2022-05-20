@@ -3,8 +3,6 @@ layout: single
 title: Lineas de codigo basicas para bash
 date: 2022-1-29
 classes: wide
-header:
-  teaser: /assets/images/slae32.png
 categories:
   - bash
 tags:

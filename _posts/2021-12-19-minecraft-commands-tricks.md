@@ -3,8 +3,6 @@ layout: single
 title: Trucos de comandos en Minecraft
 date: 2021-12-19
 classes: wide
-header:
-  teaser: /assets/images/slae32.png
 categories:
   - minecraft
   - trucos

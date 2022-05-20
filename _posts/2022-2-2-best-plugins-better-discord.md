@@ -3,8 +3,6 @@ layout: single
 title: Mejores plugins de Better Discord
 date: 2022-2-2
 classes: wide
-header:
-  teaser: /assets/images/slae32.png
 categories:
   - discord
 tags:

@@ -3,8 +3,6 @@ layout: single
 title: Generador aleatorio de contraseñas en python
 date: 2021-12-20
 classes: wide
-header:
-  teaser: /assets/images/slae32.png
 categories:
   - python
 tags:

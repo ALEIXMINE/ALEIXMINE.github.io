@@ -3,8 +3,6 @@ layout: single
 title: Añadir una opcion al menu de crear archivos.
 date: 2021-12-19
 classes: wide
-header:
-  teaser: /assets/images/slae32.png
 categories:
   - windows
 tags:
