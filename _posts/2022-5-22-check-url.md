@@ -20,9 +20,6 @@ tags:
     <label>Enlace</label>
 </div>
 <br>
-<script>
-
-</script>
 
 <button onclick="URL_CHECK()" class="btn">Ver estado</button>
 <div class="group" style="margin-top:1.5vw">

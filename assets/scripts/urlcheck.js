@@ -13,13 +13,16 @@ function URL_CHECK() {
       },
       statusCode: {
         200: function (response) {
-          console.log("Status 200: Page is up!");
+          document.getElementById("output").value="La pagina esta encendida"
         },
         400: function (response) {
-          console.log("Status 400: Page is down.");
+          document.getElementById("output").value="La pagina esta inactiva"
+        },
+        404: function (response) {
+          document.getElementById("output").value="Pagina no encontrada"
         },
         0: function (response) {
-          console.log("Status 0: Page is down.");
+          document.getElementById("output").value="La pagina esta inactiva"
         },
       },
     };
