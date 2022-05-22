@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Convertidor base64 y texto
-date: 2022-3-30
+date: 2022-5-19
 classes: wide
 categories:
   - base64
