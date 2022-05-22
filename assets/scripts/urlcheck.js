@@ -1,5 +1,7 @@
 function URL_CHECK() {
     var URL = document.getElementById("input").value;
+    URL=URL.replace("https://","")
+    URL="https://"+URL
     var settings = {
       cache: false,
       dataType: "jsonp",
