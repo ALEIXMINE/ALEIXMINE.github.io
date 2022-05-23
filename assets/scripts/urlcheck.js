@@ -1,6 +1,8 @@
 var URLB="";
 function URL_CHECK() {
     var URL = document.getElementById("input").value;
+    URL=URL.replace("https://","")
+    URL="https://"+URL
     var settings = {
       cache: false,
       dataType: "jsonp",
@@ -29,15 +31,10 @@ function URL_CHECK() {
         },
       },
     };
-
-    if (URL=="") {console.log("Inserte un enlace!")} else {
-      URL=URL.replace("https://","")
-      URL="https://"+URL
-      document.getElementById("output").value="Cargando..."
-      $.ajax(settings).done(function (response) {
-        console.log(response);
-      });
-    }
+    document.getElementById("output").value="Cargando..."
+    $.ajax(settings).done(function (response) {
+      console.log(response);
+    });
   }
 
 function GO_URL () {
