@@ -30,7 +30,7 @@ function URL_CHECK() {
       },
     };
 
-    if (URL!="") {
+    if (URL=="") {console.log("Inserte un enlace!")} else {
       URL=URL.replace("https://","")
       URL="https://"+URL
       document.getElementById("output").value="Cargando..."
