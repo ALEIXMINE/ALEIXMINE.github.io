@@ -1,3 +1,4 @@
+var URLB="";
 function URL_CHECK() {
     var URL = document.getElementById("input").value;
     URL=URL.replace("https://","")
@@ -16,6 +17,8 @@ function URL_CHECK() {
       statusCode: {
         200: function (response) {
           document.getElementById("output").value="La pagina esta encendida"
+          URLB=URL
+          document.getElementById("gourl").style="visibility:visible;"
         },
         400: function (response) {
           document.getElementById("output").value="La pagina esta inactiva"
@@ -33,3 +36,7 @@ function URL_CHECK() {
       console.log(response);
     });
   }
+
+function GO_URL () {
+  window.open(URL)
+}

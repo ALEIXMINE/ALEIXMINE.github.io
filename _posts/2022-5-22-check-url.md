@@ -28,3 +28,6 @@ tags:
     <span class="bar"></span>
     <label>Estado</label>
 </div>
+<button onclick="GO_URL()" class="btn" style="visibility:hidden;" id="gourl">Ir al url</button>
+
+
