@@ -38,5 +38,5 @@ function URL_CHECK() {
   }
 
 function GO_URL () {
-  window.open(URL)
+  window.open(URLB)
 }
