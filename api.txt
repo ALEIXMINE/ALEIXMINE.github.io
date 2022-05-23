@@ -4,6 +4,6 @@ https://aleixmine.github.io/assets/css/colors/hex/id.css
 https://aleixmine.github.io/assets/css/colors/hex/class.css
 
 Predefined colors:
-https://aleixmine.github.io/assets/css/predefineds/all.css
-https://aleixmine.github.io/assets/css/predefineds/id.css
-https://aleixmine.github.io/assets/css/predefineds/class.css
+https://aleixmine.github.io/assets/css/colors/predefineds/all.css
+https://aleixmine.github.io/assets/css/colors/predefineds/id.css
+https://aleixmine.github.io/assets/css/colors/predefineds/class.css
