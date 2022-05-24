@@ -6,6 +6,7 @@ classes: wide
 ---
 
 ### Sumar fracciones
+<script src="/assets/scripts/fractions.js"></script>
 <link rel="stylesheet" href="/assets/css/converter.css">
 <div id="fracciones">
     <div id="fraccion_uno" style="display: inline-block;box-sizing: border-box;">
