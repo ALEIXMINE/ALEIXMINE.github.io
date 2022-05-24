@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Como utilizar el comando shutdown
-date: 2022-1-29
+date: 2022-5-24
 classes: wide
 categories:
   - batch
