@@ -11,7 +11,7 @@ tags:
 
 ### Calculador de fraccion irreductible
 
-<script src="/assets/scripts/fraction.js"></script>
+<script src="/assets/scripts/fractions.js"></script>
 
 <link rel="stylesheet" href="https://aleixmine.github.io/assets/css/converter.css">
 <div id="fraccion_uno" style="display: inline-block;box-sizing: border-box;">
