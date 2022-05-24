@@ -45,4 +45,4 @@ function add_fractions() {
     var result= sumFrac(vl[0], vl[1]);
     document.getElementById("output1").value=result[0];
     document.getElementById("output2").value=result[1];
-}
+} 

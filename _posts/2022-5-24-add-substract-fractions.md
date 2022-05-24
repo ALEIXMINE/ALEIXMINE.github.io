@@ -1,11 +1,11 @@
 ---
 layout: single
-title: Sumar fracciones
+title: Sumar y restar fracciones
 date: 2022-5-24
 classes: wide
 ---
 
-### Sumar fracciones
+### Sumar y restar fracciones
 <script src="/assets/scripts/fractions.js"></script>
 <link rel="stylesheet" href="/assets/css/converter.css">
 <div id="fracciones">
@@ -38,7 +38,6 @@ classes: wide
             <label>Denominador</label>
         </div>
     </div>
-    <h1 style="display: inline-block;box-sizing: border-box;">=</h1>
      <div id="fraccion_dos"  style="display: inline-block;box-sizing: border-box;">
         <div class="group" style="margin-top:1.5vw">
             <input id="output1" required="" type="text" class="input">
@@ -54,4 +53,4 @@ classes: wide
         </div>
     </div>
 </div>
-<button onclick="add_fractions()" class="btn">Sumar</button><br><br>
+<button onclick="add_fractions()" class="btn">Sumar</button><button onclick="substract_fractions()" class="btn">Restar</button><br><br>
