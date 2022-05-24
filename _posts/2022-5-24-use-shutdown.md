@@ -15,9 +15,9 @@ Para utilizar el shutdown hay muchos parametros para
 cambiar el resultado:
 
 ### Parametros:
-/p provoca que se apague el sistema instantaniamente
-/s provoca que se agague el sistema en un minuto
-/t establece un tiempo al /s
+/p provoca que se apague el sistema instantaniamente<br>
+/s provoca que se agague el sistema en un minutbro
+/t establece un tiempo al /s<br>
 /a cancela el apago temporizado
 
 ### Ejemplos:
