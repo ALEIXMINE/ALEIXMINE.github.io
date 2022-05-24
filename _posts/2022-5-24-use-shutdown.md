@@ -16,7 +16,7 @@ cambiar el resultado:
 
 ### Parametros:
 /p provoca que se apague el sistema instantaniamente<br>
-/s provoca que se agague el sistema en un minutbro
+/s provoca que se agague el sistema en un minutbro<br>
 /t establece un tiempo al /s<br>
 /a cancela el apago temporizado
 
