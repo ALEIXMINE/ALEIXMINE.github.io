@@ -23,7 +23,6 @@ classes: wide
             <label>Denominador</label>
         </div>
     </div>
-    <h1 style="display: inline-block;box-sizing: border-box;">+</h1>
     <div id="fraccion_dos"  style="display: inline-block;box-sizing: border-box;">
         <div class="group" style="margin-top:1.5vw">
             <input id="input3" required="" type="text" class="input">
@@ -38,6 +37,7 @@ classes: wide
             <label>Denominador</label>
         </div>
     </div>
+    <h1 style="display: inline-block;box-sizing: border-box;">=</h1>
      <div id="fraccion_dos"  style="display: inline-block;box-sizing: border-box;">
         <div class="group" style="margin-top:1.5vw">
             <input id="output1" required="" type="text" class="input">

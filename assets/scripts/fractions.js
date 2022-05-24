@@ -35,14 +35,13 @@ const sumFrac = (a, b) => {
     return [resNumer/greatestDivisor, resDenom/greatestDivisor];
 };
 
+function get_inputs() {return document.getElementById("input1").value,document.getElementById("input2").value,document.getElementById("input3").valuedocument.getElementById("input4").value}
+
 function add_fractions() {
-    var v1 = document.getElementById("input1").value;
-    var v2 = document.getElementById("input2").value;
-    var v3 = document.getElementById("input3").value;
-    var v4 = document.getElementById("input4").value;
+    var v1,v2,v3,v4 = get_inputs()
     var vl = [[v1, v2], [v3, v4]];
     console.log(vl);
     var result= sumFrac(vl[0], vl[1]);
     document.getElementById("output1").value=result[0];
     document.getElementById("output2").value=result[1];
-} 
+}
