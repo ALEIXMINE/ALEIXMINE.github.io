@@ -63,3 +63,7 @@
    button:active {
     --border-width: 5px;
    }
+
+   body {
+       text-align: center;
+   }
