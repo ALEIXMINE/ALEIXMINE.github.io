@@ -1,22 +1,22 @@
 ---
 layout: single
-title: Restar y sumar en fracciones
+title: Sumar fracciones
 date: 2022-5-24
 classes: wide
 ---
 
-### Utilizar  el shutdown
+### Sumar fracciones
 <link rel="stylesheet" href="/assets/css/converter.css">
 <div id="fracciones">
     <div id="fraccion_uno" style="display: inline-block;box-sizing: border-box;">
         <div class="group" style="margin-top:1.5vw">
-            <input id="output" required="" type="text" class="input">
+            <input id="input1" required="" type="text" class="input">
             <span class="highlight"></span>
             <span class="bar"></span>
             <label>Numerador</label>
         </div>
         <div class="group" style="margin-top:1.5vw">
-            <input id="output" required="" type="text" class="input">
+            <input id="input2" required="" type="text" class="input">
             <span class="highlight"></span>
             <span class="bar"></span>
             <label>Denominador</label>
@@ -25,17 +25,32 @@ classes: wide
     <h1 style="display: inline-block;box-sizing: border-box;">+</h1>
     <div id="fraccion_dos"  style="display: inline-block;box-sizing: border-box;">
         <div class="group" style="margin-top:1.5vw">
-            <input id="output" required="" type="text" class="input">
+            <input id="input3" required="" type="text" class="input">
             <span class="highlight"></span>
             <span class="bar"></span>
             <label>Numerador</label>
         </div>
         <div class="group" style="margin-top:1.5vw">
-            <input id="output" required="" type="text" class="input">
+            <input id="input4" required="" type="text" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Denominador</label>
+        </div>
+    </div>
+    <h1 style="display: inline-block;box-sizing: border-box;">=</h1>
+     <div id="fraccion_dos"  style="display: inline-block;box-sizing: border-box;">
+        <div class="group" style="margin-top:1.5vw">
+            <input id="output1" required="" type="text" class="input">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Numerador</label>
+        </div>
+        <div class="group" style="margin-top:1.5vw">
+            <input id="output2" required="" type="text" class="input">
             <span class="highlight"></span>
             <span class="bar"></span>
             <label>Denominador</label>
         </div>
     </div>
 </div>
----
+<button onclick="add_fractions()" class="btn">Sumar</button><br><br>
