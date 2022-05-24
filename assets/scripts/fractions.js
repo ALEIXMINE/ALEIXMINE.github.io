@@ -38,10 +38,8 @@ const sumFrac = (a, b) => {
 const substractFrac = (a, b) => {
     const aDenom = a[1], aNumer = a[0];
     const bDenom = b[1], bNumer = b[0];
-    let resDenom = aDenom * bDenom;
-    let resNumer = (aDenom*bNumer) - (bDenom*aNumer);
-    const greatestDivisor = gcd(resDenom, resNumer);
-    return [resNumer/greatestDivisor, resDenom/greatestDivisor];
+    let decimal = (aDenom/aNumer)-(bDenom/bNumer)
+    console.log(decimal)
 };
 
 function add_fractions() {
