@@ -26,4 +26,4 @@ tags:
     <span class="highlight"></span>
     <span class="bar"></span>
     <label>Salida</label>
-  </div>
+</div>
