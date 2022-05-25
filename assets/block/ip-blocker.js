@@ -12,7 +12,7 @@ $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
     }, {});
     for (let ip of DATA) {
       if (data["ip"] == ip) {
-        document.write("<h1>IP Blocked</h1>");
+        document.write(`<h1 style="text-align:center;">IP Blocked</h1>`);
       }
     }
 });
