@@ -30,4 +30,5 @@ author_profile: true
   <a href="mailto:aleixboves10@gmail.com?Subject=Sugerir%20Juego&body=Hola%20me%20gustaria%20añadir%20el%20juego%20">Contactar por correo</a>
 </div>
 
-<script src="https://aleixmine.github.io/assets/scripts/ip-blocker.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="https://aleixmine.github.io/assets/block/ip-blocker.js"></script>

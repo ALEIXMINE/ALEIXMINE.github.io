@@ -1,5 +1,5 @@
 const DATA=[];
-  
+// Add this 
 $.get('https://aleixmine.github.io/assets/block/ip-blacklist.txt', function(data) {
 data = data.split('\n')
 for (let d in data) {DATA.push(data[d].replace("\r",""));}
