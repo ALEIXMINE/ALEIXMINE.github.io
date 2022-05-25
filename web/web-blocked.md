@@ -1,5 +1,5 @@
 ---
-permalink: /games.html
+permalink: /blocked.html
 author_profile: true
 ---
 
