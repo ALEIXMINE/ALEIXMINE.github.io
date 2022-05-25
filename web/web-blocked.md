@@ -18,7 +18,7 @@ author_profile: true
 </style>
 
 <div class="container">
-  <p style="color:red;"><strong>Pagina bloqueada</strong></p>
+  <p style="color:red;font-size:40px;"><strong>Pagina bloqueada</strong></p>
   <p>La página solicitada no pudo ser encontrada.</p>
   <br><p>En la pagina <a href="https://http.cat">http.cat</a> podras encontrar errores http.</p>
 </div>
