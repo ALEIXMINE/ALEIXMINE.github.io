@@ -1,0 +1,64 @@
+<style>
+    .rueda {
+        height: 330px;
+        width: 330px;
+        border-radius: 100%;
+        border: 4px solid #444;
+        background-color: #444;
+    }
+    .centro {
+        margin-left: 32%;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        border: 4px solid rgb(0, 0, 0);
+        animation: rotador 3s linear infinite;
+    }
+    .bola {
+        margin-left: 32%;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        border: 4px solid rgb(0, 0, 0);
+        animation: rotador 3s linear infinite;
+    }
+    .bolal {
+        margin-top: -32%;
+        margin-left: 66%;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        border: 4px solid rgb(0, 0, 0);
+        animation: rotador 3s linear infinite;
+    }
+    @keyframes rotador {
+        0% {
+            transform: rotate(360deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+</style>
+
+<div class="rueda">
+    <div class="bola">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" alt="Avatar" style="width:100%">
+    </div>
+    <div class="centro">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="Avatar" style="width:100%">
+    </div>
+    <div class="bolal">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Avatar" style="width:100%">
+    </div>
+    <div class="bolal" style="margin-left: 0%;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Avatar" style="width:100%">
+    </div>
+    <div class="bola" style="margin-top: -2%;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Avatar" style="width:100%">
+    </div>
+</div>
+
