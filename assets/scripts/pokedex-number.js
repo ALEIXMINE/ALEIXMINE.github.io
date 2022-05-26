@@ -5,11 +5,7 @@ var MAX_POKEDEX=898;
 var REPETING=10;
 
 
-function generate_number_pokedex () {
-    number=0;
-    interval_num=setInterval(changing_number,100)
-    document.getElementById("generate").style="visibility:hidden;"
-}
+ 
 
 function changing_number() {
     var pok=String(parseInt(Math.random()*898));
