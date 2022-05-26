@@ -26,9 +26,5 @@ shutdown /s /t 300
 ```
 Provocara que el sistema se apague en 5 minutos.
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script src="https://aleixmine.github.io/assets/block/ip-blocker.js"></script>
-
-
 ---
 
