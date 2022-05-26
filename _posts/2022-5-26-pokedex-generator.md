@@ -6,7 +6,6 @@ classes: wide
 categories: pokemon
 tags: []
 ---
-<h1>Generador aleatorio de pokemons</h1><br>
 <link rel="stylesheet" href="/assets/css/converter.css">
 <script src="/assets/scripts/pokedex.js"></script>
 
