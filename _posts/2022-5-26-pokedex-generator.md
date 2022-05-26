@@ -7,6 +7,7 @@ categories: pokemon
 tags: []
 ---
 ### Generador aleatorio de pokemons
+<link rel="stylesheet" href="/assets/css/converter.css">
 <script src="/assets/scripts/pokedex.js"></script>
 <h1>Tu pokemon es <strong id="number">000</strong></h1>
-<button id="generate" onclick="generate_number_pokedex()">Click para generar</button>
+<button onclick="generate_number_pokedex()" id="generate" class="btn">Click para generar</button>
