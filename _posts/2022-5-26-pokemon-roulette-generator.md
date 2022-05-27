@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Generador aleatorio de pokemons
-date: 2022-5-24
+date: 2022-5-26
 classes: wide
 categories: pokemon
 tags: []
