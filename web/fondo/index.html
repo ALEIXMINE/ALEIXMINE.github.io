@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fondo</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var count=0;
+        function randint(min, max) {
+            return Math.random() * (max - min) + min;
+          }
+        function myFunction() {
+            var bubbles = document.getElementsByClassName("bubbles")[0];
+            let bubble = document.createElement("span");
+            bubble.style="--i:"+parseInt(randint(1,20));+";"
+            bubbles.append(bubble);
+        }
+        setInterval(myFunction, 1000);
+    </script>
+</head>
+<body>
+    <div class="background">
+        <div class="bubbles"></div>
+    </div>
+</body>
+</html>
