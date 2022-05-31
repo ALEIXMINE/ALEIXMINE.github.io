@@ -5,17 +5,18 @@
     <title>Fondo</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        var count=0;
         function randint(min, max) {
             return Math.random() * (max - min) + min;
           }
-        function myFunction() {
+        function spawn_bubble() {
             var bubbles = document.getElementsByClassName("bubbles")[0];
             let bubble = document.createElement("span");
             bubble.style="--i:"+parseInt(randint(1,20));+";"
             bubbles.append(bubble);
         }
-        setInterval(myFunction, 1000);
+        for (let i = 0; i < 20; i++) { 
+            spawn_bubble();
+        }
     </script>
 </head>
 <body>
