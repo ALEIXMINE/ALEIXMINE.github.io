@@ -3,8 +3,6 @@ layout: single
 title: Lista de codigos de letras en javascript
 date: 2022-6-10
 classes: wide
-# header:
-#   teaser: /assets/images/slae32.png
 categories:
   - javascript
 ---
@@ -110,9 +108,3 @@ categories:
     num lock  144
     scroll lock   145
     semi-colon  186
-
-
-[Java 16](https://www.dropbox.com/s/vzbyurj9yqbdu7v/16.zip?dl=1)
-<br><br>
-
-[Java 17](https://www.dropbox.com/s/v9mxxo3s7qr2h6a/17.zip?dl=1)
