@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Web config -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Españacraft</title>
+	<meta name="description" content="CreeperCraft es un servidor pequeño">
+	<meta property="og:title" content="CreeperCraft - Official Website Portal">
+	<meta property="og:site_name" content="CreeperCraft">
+	<meta property="og:description" content="Creepercraft es un servidor pequeño">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+  <!-- Imports -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/spaincraft.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/assets/scripts/minecraft-api.js"></script>
+  <script src="/assets/scripts/spaincraft.js"></script>
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="bg-loader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- header -->
+  <div class="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UC4VQTpVqMDXUAaqQxI217XQ"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://twitter.com/aleixmine17"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <header>
+    <div class="container">
+      <h1><a href="index.html" id="title_navbar">ESPAÑACRAFT</a></h1>
+      <ul>
+        <li class="active"><a href="index.html">Principal</a></li>
+        <li><a href="about.html">Tienda</a></li>
+        <li><a href="#information">Informacion</a></li>
+      </ul>
+      <div>
+  </header>
+
+  <!-- banner -->
+  <section class="banner">
+    <h2>¡Entra ya para jugar!<br>Actualmente <span class="ip-event" data-ip="game2.falix.cc:37554" data-port="25565"></span> personas.<br><strong style="animation: ChangeColor 10s infinite 0s;"><span class="ip">game2.falix.cc:37554</span></strong><br>¡Recuerda poner los mods!</h2>
+  </section>
+
+  <!-- information -->
+  <section class="information">
+    <div class="container">
+      <h3 id="information">Informacion</h3>
+      <p style="text-align:center;"></p>
+    </div>
+  </section>
+
+  <!-- content -->
+  <section class="information">
+    <div class="container">
+      <h3 id="information">Mods</h3>
+      <div id="center-content">
+        <p>Actualmente para entrar al servidor nesesitas complementos (mods)<br>Para utilizarlos deberas de descargar la version <strong class="forge-mods">1.12.2 Forge</strong>.</p>
+        <p>Tambien nesesitaras poner todos los complementos(mods)!<br>Para eso hemos creado un instalador!<br><strong class="download-forge-mods">Click para descargar</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <small>Copyright &copy; 2022 - ALEIXMINE17. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".bg-loader").hide();
+    })
+  </script>
+</body>
+</html>
