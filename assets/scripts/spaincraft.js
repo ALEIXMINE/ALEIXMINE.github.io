@@ -5,6 +5,6 @@ $(document).ready(function() {
     })
     let mods_forge_download = document.getElementsByClassName("download-forge-mods")[0];
     mods_forge_download.addEventListener("click", function(){
-      window.location.replace("https://www.dropbox.com/s/v58547qaksb1tb3/InstaladorModsEspa%C3%B1aCraft.exe?dl=1")
+      window.location.replace("https://www.dropbox.com/s/shkri6e8hcf8fl1/InstaladorModsEspa%C3%B1aCraft.exe?dl=1")
     })
   });

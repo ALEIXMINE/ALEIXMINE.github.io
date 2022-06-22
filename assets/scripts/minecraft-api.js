@@ -13,7 +13,7 @@ $(document).on("click", ".ip", () => {
     copy.textContent = t;
     copy.select();
     document.execCommand("copy");
-    $(".ip").html("<span class='extrapad'>IP copied!</span>");
+    $(".ip").html("<span class='extrapad'>IP copiada!</span>");
     setTimeout(() => {
         $(".ip").html(t);
         var copy = document.getElementById("ta");
